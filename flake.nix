@@ -19,10 +19,10 @@
           owner = "BernieHuang2008";
           repo = "lig-completion";
           rev = "da68a565d6d3c305f7a1d93fdd27bcb37c0cd70f";
-          hash = prev.lib.fakeHash;     # ← 待替换
+          hash = "sha256-BFnS6dCmG2wyFN+mXLvqgnCqGpytp5n1qE4irlA9SAs=";
         };
 
-        cargoHash = prev.lib.fakeHash;   # ← 待替换
+        cargoHash = "sha256-4DZE58idIhQp2GvkJCd2x/sDTzGrRxMuKn3L0aerSAs="; 
 
         meta = with prev.lib; {
           description = "IDE-style terminal autocompletion";
